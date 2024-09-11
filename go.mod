@@ -1,4 +1,4 @@
-module web-service-gin
+module crud_website_go
 
 go 1.23.1
 
@@ -6,8 +6,6 @@ require (
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/pocketbase/pocketbase v0.22.20
 )
-
-require github.com/stretchr/testify v1.9.0 // indirect
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7 // indirect
